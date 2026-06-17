@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="よいぶろぐ アイコン">
+  <rect width="512" height="512" rx="112" fill="#f7f4ee"/>
+  <circle cx="352" cy="150" r="82" fill="#f2c75c"/>
+  <circle cx="385" cy="124" r="82" fill="#f7f4ee"/>
+  <path d="M128 180c0-24 20-44 44-44h86c28 0 50 22 50 50v184c0 12-10 22-22 22H172c-24 0-44-20-44-44V180Z" fill="#ffffff" stroke="#24575a" stroke-width="18"/>
+  <path d="M308 186c0-28 22-50 50-50h22c24 0 44 20 44 44v168c0 24-20 44-44 44h-72V186Z" fill="#d9ece8" stroke="#24575a" stroke-width="18"/>
+  <path d="M172 212h88M172 256h88M172 300h72" stroke="#7b8f8b" stroke-width="16" stroke-linecap="round"/>
+  <path d="M336 222h46M336 266h46M336 310h34" stroke="#7b8f8b" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="142" cy="374" r="22" fill="#d77962"/>
+</svg>

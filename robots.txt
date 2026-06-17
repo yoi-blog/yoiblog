@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yoi-blog.github.io/yoiblog/sitemap.xml
