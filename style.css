@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Yu Gothic", sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+.site-header {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav {
+    background: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-content {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.post-card,
+.profile-box {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.category {
+    color: #3156a3;
+    font-weight: bold;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: block;
+    }
+}
+.contact-button {
+    display: inline-block;
+    background: #3156a3;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    opacity: 0.8;
+}
