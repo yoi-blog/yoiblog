@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>サイトマップ</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="よいぶろぐのサイトマップです。記事一覧と固定ページへのリンクを掲載しています。">
+  <title>サイトマップ | よいぶろぐ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="index.html">よいぶろぐ</a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="index.html">記事一覧</a>
+        <a href="profile.html">プロフィール</a>
+        <a href="sitemap.html" aria-current="page">サイトマップ</a>
+        <a href="privacy.html">プライバシー</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
 
-<header class="site-header">
+  <main class="container page">
     <h1>サイトマップ</h1>
-</header>
+    <h2>記事</h2>
+    <ul class="link-list">
+      <li><a href="index.html">記事一覧</a></li>
+      <li><a href="post1.html">朝の時間を整えるためにやめたこと</a></li>
+      <li><a href="post2.html">小さなメモを続けると一日が見えやすくなる</a></li>
+      <li><a href="post3.html">家で集中しやすい机まわりの作り方</a></li>
+      <li><a href="post4.html">散歩を日課にして気づいたこと</a></li>
+      <li><a href="post5.html">買い物メモを先に作るだけで節約しやすくなる</a></li>
+      <li><a href="post6.html">週末に一週間を振り返る簡単な方法</a></li>
+    </ul>
+    <h2>固定ページ</h2>
+    <ul class="link-list">
+      <li><a href="profile.html">プロフィール</a></li>
+      <li><a href="privacy.html">プライバシーポリシー</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </main>
 
-<nav class="nav">
-    <a href="index.html">ホーム</a>
-    <a href="profile.html">プロフィール</a>
-    <a href="sitemap.html">サイトマップ</a>
-    <a href="privacy.html">プライバシーポリシー</a>
-    <a href="contact.html">お問い合わせ</a>
-</nav>
-
-<div class="container">
-<main class="main-content">
-
-<div class="post-card">
-<ul>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="profile.html">プロフィール</a></li>
-<li><a href="privacy.html">プライバシーポリシー</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-</ul>
-</div>
-
-</main>
-</div>
-
-<footer class="footer">
-    <p>
-        © 2026 よいぶろぐ |
-        <a href="privacy.html">プライバシーポリシー</a>
-    </p>
-</footer>
-
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; 2026 よいぶろぐ / よいづき</small>
+    </div>
+  </footer>
 </body>
 </html>
